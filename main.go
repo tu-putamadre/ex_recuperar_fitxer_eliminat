@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 func main() {
@@ -35,12 +34,12 @@ func main() {
 	}
 
 	fmt.Println("El resultado es:", resultado)
-	//guarda el resultado tambe en un arxiu anomenat resultat.txt
-	salida := fmt.Sprintf("El resultado es: %.2f\n", resultado)
+	//guarda el resultat tambe en un arxiu anomenat resultat.txt
+	/*salida := fmt.Sprintf("El resultado es: %.2f\n", resultado)
 	err := os.WriteFile("resultat.txt", []byte(salida), 0644)
 	if err != nil {
 		fmt.Println("Error al guardar el resultado:", err)
 		return
 	}
-	fmt.Println("El resultat s'ha guardat en l'archivo resultat.txt")
+	fmt.Println("El resultat s'ha guardat en l'archivo resultat.txt")*/
 }
